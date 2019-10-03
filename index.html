@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/a13e6ded91.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css/CSSstyle.css">
+      <link rel="stylesheet" href="css/mediaqueries.css">
+      <title>Translate for you</title>
+  </head>
+  <body>
+    <img class="logo-top" src="img/logo.png" alt="LOGO"/>
+    <div class="container main-content">
+      <header class="header">
+        <div class="row">
+          <div class="col-9 header-order-info">
+            <div class="row">
+              <div class="col-md-9 col-sm-12">
+                <h4 class="h4-you-order"><i class="fas fa-clipboard"></i> YOUR ORDER</h4>
+                <ul class="header-items">
+                  <li class="header-item">
+                    <div class="header-item-top"> ITEMS  
+                    </div>
+                    <div class="header-item-botton"> 2 documents 
+                    </div>
+                  </li>
+                  <li  class="header-item">
+                    <div class="header-item-top"> DETAILS  
+                    </div>
+                    <div class="header-item-botton"> 2 languages 
+                    </div>
+                  </li>
+                  <li  class="header-item">
+                    <div class="header-item-top"> PRICE  
+                    </div>
+                    <div class="header-item-botton"> $696.06 
+                    </div>
+                  </li>
+                  <li  class="header-item">
+                    <div class="header-item-top"> DELIVERY  
+                    </div>
+                    <div class="header-item-botton"> 48 hours* 
+                    </div>
+                  </li>
+                </ul> 
+              </div>
+              <div class="col-md-3 col-sm-12">
+                <div class="header-buttons">
+                  <button class="btn  btn-primary">PLACE ORDER</button>
+                  <button class="btn  btn-light">PRINT A QUOTE</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="header-help">
+              <h4 class="h4-you-order"><i class="far fa-life-ring"></i> HELP CENTER</h4>
+              <p class="header-help-top">If you need assistance while placing your order,contact one of our beloved Project Manager by phone or email.</p>
+              <p class="header-help-botton"> <a href="tel:+971(0)555555">+971(0)555555</a> <a href="mailto:help@qtest.com"> help@qtest.com</a></p>
+            </div>
+          </div>
+        </div>      
+      </header>
+      <form novalidate id="formOrder">
+        <div class="content">
+          <div class="h3-select-object-translation">SELECT WHAT YOU WANT TO TRANSLATE
+            </div>
+          <div class="translate-subject">
+              <div class="row">
+                <div class="col">
+                  <div class="item-translate-subject" tabindex="0"><img class="image-item-translate-subject" src="img/web-page.png"/><p>Website</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="item-translate-subject" tabindex="0"> <img src="img/document.png" class="image-item-translate-subject"/><p>Documents</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="item-translate-subject" tabindex="0"><img src="img/social.png" class="image-item-translate-subject"/><p> Social Account</p>
+                  </div>
+                </div>
+              </div>
+          </div>  
+          <div class="uploard" >
+              <p><span class="border-circle">1</span> Upload your documents<span class="formtext"> (Doc, Docx, Text, PDF, Marldown)</span></p>
+              <label for="uploadFiles">
+              <div class="btn  btn-light btn-uploard" tabindex="0"> <i class="fas fa-cloud-upload-alt"></i>Upload a new file
+              </div>
+              </label>  
+              <input type="file" accept=".doc,.doxt,.text,.pdf,.markdown" multiple  hidden id="uploadFiles">
+                <ul class="upload-files-info">
+                  <li class="upload-files-header">
+                    <div class="row">
+                      <div class="col-4 header-upload-file-info-name">FILE NAME
+                      </div>
+                      <div class="col header-upload-file-info-size">FILE SIZE
+                      </div>
+                      <div class="col header-upload-file-info-words">NUMBER OF WORDS
+                      </div>
+                      <div class="col header-upload-file-info-remove">REMOVE
+                      </div>
+                    </div>
+                  </li> 
+                </ul> 
+          </div> 
+          <div class="choice-languages">
+              <p><span class="border-circle">2</span> Choose your languages pairings </p>
+              <div class="form-group">
+                <div class="form-group-from ">
+                  <label  for="id-form-group-from">FROM</label>
+                  <select id="id-form-group-from" class="form-control">
+                    <option selected>Choose language</option>
+                    <option value="1">English</option>
+                    <option value="2">German</option>
+                    <option value="3">French</option>
+                  </select>
+                </div> 
+                <div class="form-group-to">
+                  <label for="id-form-group-to">TO</label>
+                  <select id="id-form-group-to" class="form-control">
+                    <option selected>Choose language</option>
+                    <option value="1">English</option>
+                    <option value="2">German</option>
+                    <option value="3">French</option>
+                  </select>
+                </div>   
+              </div>
+          </div>
+          <div class="select-tone-deadline">
+              <div class="row"> 
+                <div class="col col-xs-12">
+                  <div class="select-tone">
+                    <p><span class="border-circle">3</span> Select your desired tone</p> 
+                      <div class="col item-tone" tabindex="0"><p><i class="fas fa-comments"></i>Friendly/Casual</p>
+                      </div>
+                      <div class="col item-tone" tabindex="0"><p><i class="fas fa-suitcase"></i>Corporate/Pro</p>
+                      </div>
+                      <div class="col item-tone" tabindex="0"><p><i class="fas fa-bullhorn"></i>Media/Formal</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col  col-xs-12 time-for-job">
+                  <div class="deadline-job">
+                      <p> <span class="border-circle">4</span>Tell us how urgent this job is </p>
+                      <div class="slidecontainer">
+                        <div class="inputtype">
+                          <input type="range" min="1" max="3" class="slider" value="2" id="urgentRange">
+                           <div class="input-decoration input-decoration-1"></div>
+                          <div class="input-decoration input-decoration-2" style="visibility: hidden;"></div>
+                          <div class="input-decoration input-decoration-3"></div>
+                        </div>
+                      </div>
+                      <div class="time-urgent-level">
+                        <div class="row">
+                          <div class="col got-time">
+                            I GOT TIME
+                          </div>
+                          <div class="col average">
+                            AVERAGE
+                          </div>
+                          <div class="col yesterday">
+                            YESTERDAY
+                          </div>
+                        </div>
+                      </div>
+                      <div class="time-urgent">
+                        <p class="time-urgent-header"><i class="fas fa-info-circle"></i>TIME LINE INFO</p>
+                        <p class="time-urgent-text">Whith an <span class="average">AVERAGE</span> <span class="urgent-text">
+                          timeline setup our expert translator can take a reasonableamount of time perfecting your translation
+                        </span></p>
+                      </div>
+                  </div>
+                </div>
+              </div> 
+          </div>
+          <div class="order-registration">
+                <p><span class="border-circle">5</span>Sign up and choose a payment method</p>
+                <p class="order-registration-sign">Already have an account with us? <a href="#">Sign in</a></p>
+                <div class="form-group form-registration">
+                  <div class="form-group-name">
+                    <label for="id-form-group-name">FULL NAME</label>
+                    <input type="text" required maxlength="32" minlength="8" class="form-control name" id="id-form-group-name">
+                  </div>
+                  <div class="form-group-email-password">
+                    <div class="form-group-email">
+                      <label for="id-form-group-mail">EMAIL ADRESS</label>
+                      <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control mail" id="id-form-group-mail" required>
+                    </div>
+                    <div class="form-group-password">
+                      <label for="id-form-group-password">CHOOSE A PASSWORD</label>
+                      <input type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" class="form-control password" id="id-form-group-password"  required>
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="form-group-cardnumber">
+                      <label for="id-form-group-cardnumber">CARD NUMBER</label>
+                      <input type="text" pattern="[0-9]{16}" class="form-control card-number" id="id-form-group-cardnumber"  required>
+                    </div>
+                    <div class="form-group-date-code"><div class="form-group-date">
+                      <label for="id-form-group-expirydate">EXPIRY DATE</label>
+                      <input type="date" class="form-control expiry-data" id="id-form-group-expirydate" placeholder="DD/MM/YY" required>
+                    </div>
+                    <div class="form-group-code">
+                      <label for="id-form-group-code">CODE</label>
+                      <input type="text" class="form-control code" id="id-form-group-code" pattern="[0-9]{3}" required>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="footer">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" for="customCheck1">I agree to the <a href="#">Terms & Conditions</a></label>
+              <button type="submit" id="submitForm" class="btn btn-primary">PLACE ORDER</button>
+              <button type="button" class="btn btn-outline-primary">PRINT A QUOTE</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+       <script src="js/scriptJS.js"></script>   
+  </body>
+</html>

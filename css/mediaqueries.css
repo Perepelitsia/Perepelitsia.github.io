@@ -1,0 +1,306 @@
+@media screen and (max-width: 1199px){
+  .form-group-to{
+    margin-left: 15px;
+  }
+  .time-urgent-level .row .col.got-time{
+    margin-left: -25px;
+    margin-right: 10px;
+    font-size: 0.5em;
+  }
+  .time-urgent-level .row .col.average{
+    margin-left: -35;
+    margin-right: 25px;
+    font-size: 0.5em;
+  }
+  .time-urgent-level .row .col.yesterday{
+    margin-left: 50px;
+    font-size: 0.5em;
+  }
+}
+@media screen and (max-width: 991px){
+  .header-buttons .btn.btn-primary{
+    margin-bottom: 15px;
+    font-size:0.8rem;
+  }
+  .header-buttons .btn.btn-light{
+    font-size:0.8rem;
+  }
+  .header-help .h4-you-order{
+    font-size:1rem;
+  }
+  .content .translate-subject .row{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .upload{
+    font-size:0.6em;
+  }
+  .uploard ul.upload-files-info{
+    width:604px;
+    margin-left:65px;
+  }
+  .uploard label{
+    margin-left: 65px;
+  }
+  .choice-languages .form-group{
+    margin-left: 65px;
+    margin-bottom: 0px;
+  }
+  .form-group-from .form-control{
+    width: 175px;
+  }
+  .form-group-to .form-control{
+    width: 175px
+  }
+  .form-group-to label{
+   margin-left: 25px;
+  }
+  .select-tone .col.item-tone{
+    margin-left:85px;
+  }
+  .select-tone-deadline .row .col.time-for-job{
+    margin-top: 25px;
+  }
+  .slidecontainer{
+    margin-left: 25px;
+  }
+  .deadline-job .time-urgent-level .row{
+    width:500px;
+  }
+  .order-registration p.order-registration-sign{
+    margin-left: 65px;
+  }
+  .order-registration .form-group.form-registration{
+    margin-left: 65px!important;
+  }
+} 
+@media screen and (max-width: 767px){
+  .translate-subject .row{
+  display: block;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-bottom-width: 30px;
+  }
+  .translate-subject .row .col{
+  margin-bottom: 45px;
+  }
+  .form-group .form-registration{
+  margin-left: 45px;  
+  }
+  .form-group.form-registration .form-group-password{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .form-group.form-registration .form-control{
+    width:296px;
+  }
+  .card-info{
+    flex-direction: column; 
+  }
+  .form-group-cardnumber{
+    margin-top:15px;
+  }
+  .form-group-date{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .form-group-date label {
+    margin-left: 0;
+  }
+  .form-group-date .form-control.expiry-data{
+    margin-left:0;
+    width: 146px;
+  }
+  .form-group-code .form-control.code{
+    width: 116px;
+  }
+  .uploard ul.upload-files-info{
+   width: 454px; 
+  }
+  .col.header-upload-file-info-size{
+      margin-right: 5px;
+  }
+  .col.header-upload-file-info-words{
+    width: 100px;
+    margin-right: 20px;
+  }
+  .col.header-upload-file-info-remove{
+  margin-left: 20px;
+  }
+  .upload-files-item .row{
+    margin-left: 0px;
+  }
+  .col-4.upload-file-info-name{
+  width: 115px;
+  }
+  .col.upload-file-info-size{
+   margin-left: 10px;
+  }
+  .col.upload-file-info-words{
+    margin-left: -15;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  .col.upload-file-info-remove{
+   margin-left: -20;
+  margin-right: 20px;
+  }
+  .form-group-email-password{
+  display: block;
+  }
+  .custom-control.custom-checkbox{
+  display: flex;
+  justify-content: center;
+  }
+  .custom-control.custom-checkbox label{
+  width: 145px;
+  }
+ .custom-control.custom-checkbox{
+  justify-content: center;
+  }
+  .footer{
+  margin-top: 20px;
+  margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 576px){
+  .logo-top{
+    display: none;
+  }
+  .header .row{
+    flex-direction: column;
+    width:320px;
+  }
+  .col-9.header-order-info{
+    border-right-width: 0px;
+  }
+  ul.header-items{
+    padding-left: 0px;
+  }
+  .header-item-top {
+    font-size: 0.8em;
+    margin-right:20px;
+  }
+  .header-item-botton{
+    font-size: 0.7em;
+    margin-right:20px;
+  }
+  .row .col-md-3.col-sm-12{
+   width: 280px;
+  }
+  .header-help{
+    width: 320px;
+  }
+  .h3-select-object-translation{
+    width: 310px;
+    margin-top: 10px;
+  }
+  .uploard p{
+    margin-left: 10px;
+    font-size: 1.8em;
+  }
+  .formtext{
+    margin-left: 50px;
+  }
+  .uploard label{
+    margin-left: 25px;
+  }
+  .uploard ul.upload-files-info{
+    margin-left: 10px;
+    width: 274px;
+  }
+  .col.upload-file-info-words, .col.upload-file-info-size, .col.header-upload-file-info-size, .col.header-upload-file-info-words{
+    display: none;
+  }
+  .col-4.upload-file-info-name{
+    width:150px!important;
+  }
+   li.upload-files-header .row{
+    margin-left: 0px;
+  }
+  .col.header-upload-file-info-remove{
+    margin-left: 50px;
+  }
+  .col.upload-file-info-remove{
+    margin-left: 25px;
+  }
+  .choice-languages p{
+    margin-left: 10px;
+    font-size: 1.3em; 
+  }
+  .choice-languages .form-group{
+    margin-left:25px!important;
+  }
+  .select-tone-deadline .row .col.col-xs-12{
+    margin-left:10px;
+  }
+  .col.item-tone{
+    margin-left: 55px!important;
+  }
+  .deadline-job p{
+    margin-left: 0;
+    font-size: 1em;  
+  }
+  .slidecontainer{
+    width:300px;
+    margin-left:0;
+  }
+  .slider, .inputtype{
+    width:250px;
+    margin-right:0;
+  }
+  .time-urgent-level .row{
+    width: 300px!important;
+  }
+  .time-urgent-level .row .col.got-time{
+    margin-left: 10px;
+  }
+  .time-urgent-level .row .col.average{
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .time-urgent-level .row .col.yesterday{
+    margin-left: 0px;
+  }
+  .time-urgent{
+    width:280px;
+  }
+  .order-registration p{
+    margin-left: 10px;
+    margin-top: 35px;
+    font-size: 1.4em;
+  }
+  .order-registration p.order-registration-sign{
+    margin-left: 10px; 
+  }
+  .order-registration .form-group.form-registration{
+    margin-left: 10px!important; 
+  }
+  .form-group-date-code{
+    flex-direction:column;
+  }
+  .form-group-date .form-control.expiry-data{
+    margin-left:0;
+  }
+  .form-group-code{
+    margin-top:15px;
+  }
+  .custom-control.custom-checkbox{
+    width: 274px;
+    display: inline-block;
+  }
+  .custom-control.custom-checkbox label{
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .custom-control.custom-checkbox .btn.btn-primary{
+    width: 121px;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+  }
+  .custom-control.custom-checkbox .btn.btn-outline-primary{
+    width: 121px;
+  }
+}
